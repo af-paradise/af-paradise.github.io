@@ -3,7 +3,7 @@ let urlParamsString = urlParamsObject.toString()
 	let lang = urlParamsObject.get('lang')
 	var bhs = lang;
 	
-	if(bhs == "ID")         var langtxt = "Indonesia"   
+	if(bhs == "ID")         var langtxt = "<img src='http://icons.iconseeker.com/png/16/asian-flags/indonesia-flag.png' style='height: 12px;'> Indonesia"   
 	else                    var langtxt = "English"   
 
 	if(bhs == "ID")         var btn1 = "Coba Sekarang"   
