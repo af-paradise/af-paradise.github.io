@@ -3,8 +3,11 @@ let urlParamsString = urlParamsObject.toString()
 	let lang = urlParamsObject.get('lang')
 	var bhs = lang;
 	
-		if(bhs == "ID")         var btn1 = "Coba Sekarang"   
-		else                    var btn1 = "Get Started"    
+	if(bhs == "ID")         var langtxt = "Indonesia"   
+	else                    var langtxt = "English"   
+
+	if(bhs == "ID")         var btn1 = "Coba Sekarang"   
+	else                    var btn1 = "Get Started"    
 
 
 		if(bhs == "ID")         var P1 = "Memiliki macam jenis offer, mencangkup semua negara, dan pembayaran mingguan."   
