@@ -57,5 +57,5 @@ let urlParamsString = urlParamsObject.toString()
 			else                    var P5 = "If you have “webcopy” or a idea by your self, we can create LP or PLP custom private for you, we will always ready to help you"
 
 
-		if(bhs == "ID")         var P6 = "Hubungi Kami"
+		if(bhs == "ID")         var P6 = "Kontak Kami"
 		else                    var P6 = "Contact Us"
